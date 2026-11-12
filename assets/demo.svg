@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="csvlens terminal demo">
+  <style>
+    .l{font-family:Consolas,Menlo,monospace;font-size:15px;opacity:0;animation:show 10s infinite}
+    .p{fill:#f472b6}.h{fill:#67e8f9}.d{fill:#94a3b8}.w{fill:#e2e8f0}.m{fill:#c4b5fd}
+    .a1{animation-delay:0s}.a2{animation-delay:1s}.a3{animation-delay:1.4s}.a4{animation-delay:1.8s}.a5{animation-delay:2.2s}
+    .a6{animation-delay:4.2s}.a7{animation-delay:4.8s}.a8{animation-delay:6.4s}.a9{animation-delay:7s}
+    @keyframes show{0%{opacity:0}3%{opacity:1}92%{opacity:1}100%{opacity:0}}
+  </style>
+  <rect width="760" height="250" rx="12" fill="#13102b"/>
+  <rect width="760" height="30" rx="12" fill="#2a2450"/>
+  <circle cx="20" cy="15" r="6" fill="#f87171"/><circle cx="40" cy="15" r="6" fill="#fbbf24"/><circle cx="60" cy="15" r="6" fill="#4ade80"/>
+  <text class="l a1" x="20" y="60"><tspan class="p">$</tspan><tspan class="w"> python csvlens.py people.csv --where "age&gt;30" --sort age:desc</tspan></text>
+  <text class="l a2 d" x="20" y="82" xml:space="preserve">┌───────┬─────┬────────┐</text>
+  <text class="l a3 h" x="20" y="100" xml:space="preserve">│ name  │ age │ city   │</text>
+  <text class="l a4 w" x="20" y="118" xml:space="preserve">│ Grace │  45 │ NYC    │</text>
+  <text class="l a5 w" x="20" y="136" xml:space="preserve">│ Ada   │  36 │ London │</text>
+  <text class="l a5 d" x="20" y="154" xml:space="preserve">└───────┴─────┴────────┘</text>
+  <text class="l a6" x="20" y="186"><tspan class="p">$</tspan><tspan class="w"> python csvlens.py people.csv --stats</tspan></text>
+  <text class="l a7" x="20" y="208" xml:space="preserve"><tspan class="h">age</tspan><tspan class="d">  number   </tspan><tspan class="w">filled 3/3   unique 3</tspan></text>
+  <text class="l a8 m" x="20" y="228" xml:space="preserve">  min 28   max 45   mean 36.33   median 36</text>
+</svg>
